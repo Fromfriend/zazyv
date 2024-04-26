@@ -1,0 +1,8 @@
+services:
+  bot:
+    container_name: zazyvala
+    networks:
+      - zazyvala
+networks:
+  - zazyvala:
+    
